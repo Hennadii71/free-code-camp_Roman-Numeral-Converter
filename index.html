@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>roman-numeral-converter</title>
+</head>
+<body>
+    <h1 class="title">roman numeral converter</h1>
+    <p class="text">Here you can convert a number to Roman numerals. Enter the number in the input field and click the <span class="selected-text">"convert"</span> button. The converter works between 1 and 3999.</p>
+    <form class="form">
+        <label class="label" for="number">
+            <input id="number" type="number">
+        </label>
+        <button id="convert-button" type="button">convert</button>
+        <div id="output" class="output">1</div>
+    </form>
+ <script src="./script.js"></script>   
+</body>
+</html>
